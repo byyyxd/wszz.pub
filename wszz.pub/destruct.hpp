@@ -7,7 +7,6 @@
 #include "vars.hpp"
 #include <sstream>
 #include <experimental/filesystem>
-#include "ntdll.hpp"
 #include <algorithm>
 
 namespace full
