@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="source\others">
+      <UniqueIdentifier>{93cc9f8d-70a0-4196-8949-1a60e9b12f32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\others\encryption">
+      <UniqueIdentifier>{da1d05a9-d50a-4a70-80e9-bd01c146b61f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\others\classes">
+      <UniqueIdentifier>{13d8c84e-c876-4ddc-a024-d61d0bc25bb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\important">
+      <UniqueIdentifier>{76908ac3-c794-4c35-9bc3-0ea530d092ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\scan">
+      <UniqueIdentifier>{c2b8b367-c52b-44fd-81e3-660741e2c41a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\destruct">
+      <UniqueIdentifier>{81d00ad9-b9c9-4e38-a3fc-ede7f929e78d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entrypoint.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="scanner.cpp">
+      <Filter>source\scan</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.hpp">
+      <Filter>source\others</Filter>
+    </ClInclude>
+    <ClInclude Include="xorstr.hpp">
+      <Filter>source\others\encryption</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>source\others</Filter>
+    </ClInclude>
+    <ClInclude Include="singleton.hpp">
+      <Filter>source\others\classes</Filter>
+    </ClInclude>
+    <ClInclude Include="vars.hpp">
+      <Filter>source\important</Filter>
+    </ClInclude>
+    <ClInclude Include="scanner.hpp">
+      <Filter>source\scan</Filter>
+    </ClInclude>
+    <ClInclude Include="destruct.hpp">
+      <Filter>source\destruct</Filter>
+    </ClInclude>
+    <ClInclude Include="ntdll.hpp">
+      <Filter>source</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
